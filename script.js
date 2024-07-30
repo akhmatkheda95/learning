@@ -44,6 +44,23 @@
                 alert('я вас не знаю')
                }
                else (alert('отменено'))*/
-               
+
             
-               
+               let admin = prompt('who`s there?')
+
+               if (admin == 'admin') {
+                let password = prompt('password?')
+                if(password == 'im main') {
+                    alert('hello')
+                }
+                else if(password !== 'im main') {
+                    alert('wrong password')
+                }
+                else if(password == '' || password == null ) {
+                    alert('otmeneno')
+                }
+               }
+               else if(admin == '' || admin == null) {
+                alert('otmeneno')
+               }
+               else{alert('ya vas ne znayu')}
