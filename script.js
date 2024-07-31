@@ -46,7 +46,7 @@
                else (alert('отменено'))*/
 
             
-               let admin = prompt('who`s there?')
+               /*let admin = prompt('who`s there?')
 
                if (admin == 'admin') {
                 let password = prompt('password?')
@@ -63,4 +63,24 @@
                else if(admin == '' || admin == null) {
                 alert('otmeneno')
                }
-               else{alert('ya vas ne znayu')}
+               else{alert('ya vas ne znayu')}*/
+
+               /*let num1 = 10,
+                    num2 = 20,
+                    result;
+
+                if (result === null || result === undefined) {
+                if (num1 !== null && num1 !== undefined) {
+                    result = num1;
+                } else {
+                    result = num2;
+                }
+                }*/
+
+                let num1 = 10,
+                    num2 = 20,
+                    result;
+
+                result ??= num1 ?? num2
+                
+                    
