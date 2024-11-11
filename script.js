@@ -76,7 +76,8 @@
                     result = num2;
                 }
                 }*/
-
+let heda = 16
+console.log(heda)
                 let num1 = 10,
                     num2 = 20,
                     result;
